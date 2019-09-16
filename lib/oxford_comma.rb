@@ -6,11 +6,11 @@ def oxford_comma(array)
     string+= array[0] + " and " + array[1]
   else  
   i=0
-  while i<array.length-2
+  while i<array.length-1
     string+= array[i]+", "
   i+=1
   end
-  string+=" and "+array[-1]
+  string+="and "+array[-1]
 end
   return string
 end
